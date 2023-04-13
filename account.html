@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="">
+
+    <div class="container align-content-center justify-content-center">
+        <nav class="navbar navbar-expand-md bg-body-tetiary sticky-top">
+            <div class="container py-3 my-2 nv shadow-lg rounded bg-white">
+                <div class="navbar-brand">
+                    <img src="/assets/images/logo.png" alt="" />
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item d-lg-none d-md-none d-sm-block">
+                            <a class="nav-link" href="#">Account setting</a>
+                        </li>
+                        <li class="nav-item d-lg-none d-md-none d-sm-block">
+                            <a class="nav-link" href="#">Saved Item</a>
+                        </li>
+                        <li class="nav-item d-lg-none d-md-none d-sm-block">
+                            <a class="nav-link " href="#">Cart</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-nav m-2 gap-4 d-none d-md-flex">
+                        <a href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-regular fa-heart red"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-shopping-cart position-relative">
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    5
+                                    <!-- Replace this with the number of items in the cart -->
+                                    <span class="visually-hidden">items in cart</span>
+                                </span>
+                            </i>
+                        </a>
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div
+            class="container-fluid  p-5 my-2  border-3 pBanner d-lg-flex d-md-column d-sm-column shadow-sm justify-content-center text-center">
+            <div class="container h-25 ">
+                <span>Home <a href="" class="text-decoration-none text-success"> | Products</a></span>
+                <h3><b>Account & Orders</b></h3>
+            </div>
+
+            <div>
+                <i class="fa fa-user text-primary ft"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row gutters py-1">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="account-settings">
+                                <div class="user-profile">
+                                    <div class="user-avatar">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                                            alt="Maxwell Admin">
+                                    </div>
+                                    <button class="btn btn-primary "> <i class="fab fa-amazon-pay"> </i> (4) Orders in
+                                        que</button>
+                                    <h5 class="user-name">Yuki Hayashi</h5>
+                                    <h6 class="user-email">yuki@Maxwell.com</h6>
+                                </div>
+                                <div class="about">
+                                    <h5>About</h5>
+
+                                    <p>I'm Yuki. Full Stack Designer I enjoy creating user-centric, delightful and human
+                                        experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row gutters py-1">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h6 class="mb-2 text-primary">Personal Details</h6>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName"
+                                            placeholder="Enter full name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="eMail">Email</label>
+                                        <input type="email" class="form-control" id="eMail"
+                                            placeholder="Enter email ID">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="phone">Phone</label>
+                                        <input type="text" class="form-control" id="phone"
+                                            placeholder="Enter phone number">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="website">Website URL</label>
+                                        <input type="url" class="form-control" id="website" placeholder="Website url">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row gutters py-1">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h6 class="mt-3 mb-2 text-primary">Address</h6>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="Street">Street</label>
+                                        <input type="name" class="form-control" id="Street" placeholder="Enter Street">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="ciTy">City</label>
+                                        <input type="name" class="form-control" id="ciTy" placeholder="Enter City">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="sTate">State</label>
+                                        <input type="text" class="form-control" id="sTate" placeholder="Enter State">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-2">
+                                    <div class="form-group">
+                                        <label for="zIp">Zip Code</label>
+                                        <input type="text" class="form-control" id="zIp" placeholder="Zip Code">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row gutters py-1">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="text-right">
+                                        <button type="button" id="submit" name="submit"
+                                            class="btn btn-secondary">Cancel</button>
+                                        <button type="button" id="submit" name="submit"
+                                            class="btn btn-primary">Update</button>
+                                        <button type="button" id="submit" name="submit"
+                                            class="btn btn-danger my-1">Delete
+                                            Account</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container marginTop3Rem">
+        <hr>
+        <div class="d-flex py-4 flex-lg-row flex-md-column justify-content-lg-evenly 
+    justify-content-md-center justify-content-sm-center flex-sm-column flex-column text-center align-items-center">
+            <ul class="d-flex gap-3 list-unstyled">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa fa-link"></i></li>
+            </ul>
+
+            <div>
+                <p>© 2022. All rights reserved by Japheth_Joepari.</p>
+            </div>
+
+            <ul class="d-flex list-unstyled gap-1">
+                <li><img src="./assets/images/paypal.png" alt=""></li>
+                <li><img src="./assets/images/visa_card.png" alt=""></li>
+                <li><img src="./assets/images/master_card.png" alt=""></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

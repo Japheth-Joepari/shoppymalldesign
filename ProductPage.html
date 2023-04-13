@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="">
+
+    <div class="container align-content-center justify-content-center">
+        <nav class="navbar navbar-expand-md bg-body-tetiary sticky-top">
+            <div class="container py-3 my-2 nv shadow-lg rounded bg-white">
+                <div class="navbar-brand">
+                    <img src="/assets/images/logo.png" alt="" />
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item d-lg-none d-md-none d-sm-block">
+                            <a class="nav-link" href="#">Account setting</a>
+                        </li>
+                        <li class="nav-item d-lg-none d-md-none d-sm-block">
+                            <a class="nav-link" href="#">Saved Item</a>
+                        </li>
+                        <li class="nav-item d-lg-none d-md-none d-sm-block">
+                            <a class="nav-link " href="#">Cart</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-nav m-2 gap-4 d-none d-md-flex">
+                        <a href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-regular fa-heart red"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-shopping-cart position-relative">
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    5
+                                    <!-- Replace this with the number of items in the cart -->
+                                    <span class="visually-hidden">items in cart</span>
+                                </span>
+                            </i>
+                        </a>
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div
+            class="container-fluid  p-5 my-2  border-3 pBanner d-lg-flex d-md-column d-sm-column shadow-sm justify-content-center text-center">
+            <div class="container h-25 ">
+                <span>Home <a href="" class="text-decoration-none text-success"> | Products</a></span>
+                <h3><b>Explore All Products</b></h3>
+            </div>
+
+            <div>
+                <i class="fa fa-shopping-basket text-primary ft"></i>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class=" d-flex  flex-lg-row flex-md-column flex-sm-column flex-column gap-2 justify-content-center">
+                <div class="flex">
+                    <input type="search" name="" id="" class="select2 border-primary"
+                        placeholder="Search for items ...">
+                    <select name="" id="" class="select2">
+                        <option value="">Category</option>
+                        <option value="">Electronics</option>
+                        <option value="">Phones</option>
+                        <option value="">Laptops</option>
+                        <option value="">Networking</option>
+                        <option value="">Monitors</option>
+                        <option value="">Gamming</option>
+                    </select>
+
+                    <select name="" id="" class="select2">
+                        <option value="">Type</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                    </select>
+
+                    <select name="" id="" class="select2">
+                        <option value="">Price Range</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                    </select>
+                </div>
+
+                <div class="flex">
+                    <select name="" id="" class="select2">
+                        <option value="">Sort By</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                    </select>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container productContainer container-xm marginTop2Rem">
+            <div class="d-flex gap-2">
+                <div class="rounded">
+                    <i class="fa fa-shopping-basket product"> </i>
+                </div>
+                <b>Products</b>
+            </div>
+            <h4 class="mt-2"><b>Explore Our products</b></h4>
+            <div class="row justify-content-start">
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/gamepag.png" alt="" class="w-100 prodBg" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(64)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Yantiti Leather &amp; Canvas Bags
+                                </small>
+                            </h5>
+                            <div class="product-price-variant gap5">
+                                <span class="price current-price smallBoldF">$29.99</span>
+                                <span class="price old-price priceLine">$49.99</span>
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/keyboard.png" alt="" class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <!-- <i class="fas fa-star"></i> -->
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(64)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Gamming G Keyboard
+                                </small>
+                            </h5>
+                            <div class="product-price-variant">
+                                <span class="price current-price smallBoldF">$60.99</span>
+                                <span class="price old-price priceLine">$209.99</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/logihead.png" alt="" class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(6,994)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Dream Headphones Pro
+                                </small>
+                            </h5>
+                            <div class="product-price-variant">
+                                <span class="price current-price smallBoldF">$30.99</span>
+                                <span class="price old-price priceLine">$2,009.99</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/lobeats.png" alt="" class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(64)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Reel Beats Amapiano
+                                </small>
+                            </h5>
+                            <div class="product-price-variant">
+                                <span class="price current-price smallBoldF">$10.99</span>
+                                <span class="price old-price priceLine">$309.99</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/logimouse.png" alt="" class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <!-- <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i> -->
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(20)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Logitech X Pro mouse
+                                </small>
+                            </h5>
+                            <div class="product-price-variant gap5">
+                                <span class="price current-price smallBoldF">$700.99</span>
+                                <span class="price old-price priceLine">$39.99</span>
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/logicamera.png" alt="" class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(200)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Logitech wide Cam
+                                </small>
+                            </h5>
+                            <div class="product-price-variant">
+                                <span class="price current-price smallBoldF">$600.99</span>
+                                <span class="price old-price priceLine">$9.99</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/amapiano2.png" alt="" class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <!-- <i class="fas fa-star"></i> -->
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(64)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Amapiano ++
+                                </small>
+                            </h5>
+                            <div class="product-price-variant">
+                                <span class="price current-price smallBoldF">$600.99</span>
+                                <span class="price old-price priceLine">$1000.99</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 py-3 col-sm-6 col-12 mb--30">
+                    <div class="card border-0">
+                        <div class="w-100 prodBg">
+                            <img src="./assets/images/pngtree-apple-macbook-pro-mockup-png-image_6277127.png" alt=""
+                                class="w-100" />
+                        </div>
+                        <div class="card-body py-2 bg-white">
+                            <div class="product-rating py-2">
+                                <span class="icon ratingColor">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <!-- <i class="fas fa-star"></i> -->
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(640)</span>
+                            </div>
+                            <h5 class="title py-2">
+                                <small class="greyish">Macbook Pro 2022
+                                </small>
+                            </h5>
+                            <div class="product-price-variant">
+                                <span class="price current-price smallBoldF">$6990.99</span>
+                                <span class="price old-price priceLine">$10000.99</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-2 mt-1">
+                                <i class="fa fa-eye eyeicon"></i>
+
+                                <i class="fa fa-shopping-basket eyeicon darkBlue"></i>
+
+                                </i>
+                                <i class="fa fa-heart eyeicon red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center py-5">
+                <button class="btn btn-outline-primary btn-lg"> <i class="fa fa-shopping-basket"></i> View
+                    More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="home-newsletter bordered">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single">
+                            <h2>Subscribe to our Newsletter</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-theme" type="submit"><i class="fa fa-paper-plane"></i>
+                                        Subscribe</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container marginTop3Rem">
+        <hr>
+        <div class="d-flex py-4 flex-lg-row flex-md-column justify-content-lg-evenly 
+    justify-content-md-center justify-content-sm-center flex-sm-column flex-column text-center align-items-center">
+            <ul class="d-flex gap-3 list-unstyled">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa fa-link"></i></li>
+            </ul>
+
+            <div>
+                <p>© 2022. All rights reserved by Japheth_Joepari.</p>
+            </div>
+
+            <ul class="d-flex list-unstyled gap-1">
+                <li><img src="./assets/images/paypal.png" alt=""></li>
+                <li><img src="./assets/images/visa_card.png" alt=""></li>
+                <li><img src="./assets/images/master_card.png" alt=""></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
